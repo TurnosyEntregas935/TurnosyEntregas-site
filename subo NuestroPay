@@ -1,0 +1,9 @@
+<main style="text-align: center; padding: 2rem;">
+    <h2>Accede a NuestroPay</h2>
+    <p>Gestiona tus pagos y entregas con seguridad y transparencia.</p>
+    <a href="index.html" class="cta-button">Volver al inicio</a>
+</main>
+
+<footer>
+    &copy; 2025 TurnosyEntregas.site - Todos los derechos reservados.
+</footer>
