@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Cuenta NuestroPay</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdfaf5;
+      padding: 1rem;
+      margin: 0;
+    }
+    section {
+      max-width: 600px;
+      margin: auto;
+      background-color: #fff8f0;
+      border: 2px solid #8C1D40;
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+    h2, h3 {
+      color: #8C1D40;
+      margin-bottom: 0.5rem;
+    }
+    span {
+      color: #CDAF56;
+      font-weight: bold;
+    }
+    button {
+      background-color: #CDAF56;
+      color: #fff;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li::before {
+      content: "✅ ";
+    }
+    hr {
+      border-color: #8C1D40;
+      margin: 1rem 0;
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h2>💳 NuestroPay: Mi cuenta</h2>
+    <p><strong>Nombre:</strong> Juan Pérez</p>
+    <p><strong>Número Nequi asociado:</strong> 3001234567</p>
+    <p><strong>Saldo disponible:</strong> <span>$27.500</span></p>
+
+    <hr>
+
+    <h3>🔄 Recargar con Nequi</h3>
+    <p>Envía el valor que deseas recargar al número <strong>3001234567</strong> desde tu app Nequi.</p>
+    <p>Tu saldo se actualizará una vez confirmemos la recepción.</p>
+
+    <hr>
+
+    <h3>🛒 Historial de compras</h3>
+    <ul>
+      <li>Arepa de huevo – $3.500</li>
+      <li>Papa rellena – $4.000</li>
+      <li>Empanada de carne – $2.800</li>
+    </ul>
+
+    <hr>
+
+    <h3>💸 Solicitar retiro</h3>
+    <p>Solicita el retiro hacia tu número Nequi registrado. Se procesará manualmente.</p>
+    <button onclick="alert('Solicitud enviada. El retiro se procesará en breve.')">Solicitar retiro</button>
+  </section>
+</body>
+</html>
